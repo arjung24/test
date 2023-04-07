@@ -47,6 +47,6 @@ if UPSTREAM_REPO := 'https://5hojib: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@git
                      && git reset --hard origin/{UPSTREAM_BRANCH} -q"], shell=True)
 
     if update.returncode == 0:
-        log_info(f'Successfully updated with latest commit from {UPSTREAM_REPO}')
+        log_info('Successfully updated with latest commit from UPSTREAM_REPO')
     else:
-        log_error(f'Something went wrong while updating, check {UPSTREAM_REPO} if valid or not!')
+        log_error('Something went wrong while updating, check UPSTREAM_REPO if valid or not!')
