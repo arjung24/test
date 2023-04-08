@@ -33,7 +33,7 @@ if DATABASE_URL:
 
 UPSTREAM_BRANCH = 'jmdkh-crash'
 
-if UPSTREAM_REPO := 'https://5hojib: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@github.com/5hojib/test':
+if UPSTREAM_REPO := 'https://5hojib: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@github.com/5hojib/xD':
     if ospath.exists('.git'):
         srun(["rm", "-rf", ".git"])
 
